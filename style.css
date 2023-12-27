@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway';
+}
+
+a {
+    width: 67px;
+    border-radius: 10px;
+    margin: 150px 130px;
+    padding: 15px 30px;
+    background-size: cover;
+    text-decoration: none;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body {
+    font-size: 18px;
+    font-style: italic;
+    line-height: 30px;
+}
+
+.fondo {
+    background-image: url('tu-imagen-de-fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Fija la imagen de fondo */
+    height: 100vh;
+    position: relative;
+}
+
+.contenido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.contenido a {
+    margin: 0 1px;
+    /* Espacio entre las imágenes */
+    position: relative;
+    /* Permite ajustar la posición de las imágenes */
+}
+
+.contenido img {
+    width: 65px;
+    /* Ajusta el ancho de la imagen */
+    height: auto;
+    /* Mantén la proporción de aspecto */
+    border: 2px solid #191970;
+    /* Borde blanco alrededor de la imagen */
+    border-radius: 8px;
+    /* Esquinas redondeadas */
+    box-shadow: 0 0 10px rgba(13, 3, 89, 0.5);
+    /* Sombra */
+}
